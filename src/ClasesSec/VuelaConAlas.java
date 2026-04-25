@@ -3,16 +3,17 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package ClasesSec;
-
+ 
+import Interfaces.*;
 /**
  *
  * @author ARELLYS
  */
-public abstract class Pato {
-
-    public void nadar(){
-        System.out.println("Todos los patos nadan");
+public class VuelaConAlas implements Volable {
+    
+    @Override
+    public void volar (){
+        System.out.println("Puedo volar con mis alas");
     }
     
-    public abstract void mostrar();
 }
