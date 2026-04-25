@@ -15,6 +15,4 @@ public class CuaqueoMudo implements Cuaqueable {
         System.out.println("<<Silencio>>");
     }
     
-    
-    
 }

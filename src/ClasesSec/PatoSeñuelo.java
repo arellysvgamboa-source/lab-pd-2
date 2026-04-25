@@ -17,7 +17,7 @@ public class PatoSeñuelo extends Pato {
 
     @Override
     public void mostrar() {
-        System.out.println("Yo soy un Pato real");
+        System.out.println("Yo soy un Pato señuelo");
     }
 
     

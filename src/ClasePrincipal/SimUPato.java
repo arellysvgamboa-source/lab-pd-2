@@ -4,6 +4,11 @@
  */
 package ClasePrincipal;
 
+import ClasesSec.PatitoDeGoma;
+import ClasesSec.PatoCabezaRoja;
+import ClasesSec.PatoReal;
+import ClasesSec.PatoSeñuelo;
+
 /**
  *
  * @author ARELLYS
@@ -14,7 +19,31 @@ public class SimUPato {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        PatoReal preal = new PatoReal();
+        PatoSeñuelo pse = new PatoSeñuelo();
+        PatitoDeGoma patg = new PatitoDeGoma();
+        PatoCabezaRoja pCroj = new PatoCabezaRoja();
+        
+        preal.mostrar();
+        preal.realizarCuaqueo();
+        preal.realizarVuelo();
+        preal.nadar();
+        System.out.println();
+        pse.mostrar();
+        pse.realizarCuaqueo();
+        pse.realizarVuelo();
+        pse.nadar();
+        System.out.println();
+        patg.mostrar();
+        patg.realizarCuaqueo();
+        patg.realizarVuelo();
+        patg.nadar();
+        System.out.println();
+        pCroj.mostrar();
+        pCroj.realizarCuaqueo();
+        pCroj.realizarVuelo();
+        pCroj.nadar();
+        
     }
     
 }
