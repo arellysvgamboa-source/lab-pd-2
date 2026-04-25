@@ -10,4 +10,6 @@ package Interfaces;
  */
 public interface Volable {
     
+    public void volar();
+    
 }
