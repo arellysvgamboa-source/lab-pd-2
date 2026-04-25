@@ -10,6 +10,6 @@ package Interfaces;
  */
 public interface Cuaqueable {
     
-    public void cuaquear ();
+    void cuaquear ();
     
 }
